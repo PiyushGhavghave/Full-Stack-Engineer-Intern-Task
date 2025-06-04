@@ -32,13 +32,13 @@ Server runs at: `http://localhost:3000`
 GET /api/v1/isprime?number=<value>
 ```
 
+**Test with curl**
+```
+curl "http://localhost:3000/api/v1/isprime?number=7"
+```
+
 **Example:**
 ```
 GET /api/v1/isprime?number=7
 Response: { "number": 7, "isPrime": true }
-```
-
-**Test with curl**
-```
-curl "http://localhost:3000/api/v1/isprime?number=7"
 ```
